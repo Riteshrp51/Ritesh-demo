@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment9</title>
+</head>
+<body>
+
+<div class="container">
+<h2>Employee Registration</h2>
+<form method="post">
+<label for="fullname">Full Name</label>
+<input id="fullname" name="fullname" placeholder="Enter your full name" required="" type="text"/>
+<label for="email">Email <span class="note">(must be a Gmail address)</span></label>
+<input id="email" name="email" pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$" placeholder="example@gmail.com" required="" type="email"/>
+<label for="phone">Phone Number <span class="note">(10 digits only)</span></label>
+<input id="phone" name="phone" pattern="[0-9]{10}" placeholder="e.g. 9876543210" required="" type="tel"/>
+<label for="department">Department</label>
+<select id="department" name="department" required="">
+<option value="">-- Select Department --</option>
+<option value="HR">Human Resources</option>
+<option value="IT">IT</option>
+<option value="Finance">Finance</option>
+<option value="Marketing">Marketing</option>
+</select>
+<label>Gender</label>
+<div class="gender-group">
+<label><input name="gender" required="" type="radio" value="Male"/> Male</label>
+<label><input name="gender" type="radio" value="Female"/> Female</label>
+<label><input name="gender" type="radio" value="Other"/> Other</label>
+</div>
+<button class="submit-btn" type="submit">Register</button>
+</form>
+</div>
+
+</body>
+</html>

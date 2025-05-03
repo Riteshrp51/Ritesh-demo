@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Assignments</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffe0c3, #e2c0f9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      padding: 40px 30px;
+      max-width: 550px;
+      width: 90%;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: #4b2e83;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #4b2e8360;
+      padding-bottom: 10px;
+    }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #fff5e1;
+      color: #4b2e83;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn:hover {
+      background-color: #fce6ff;
+      transform: translateY(-4px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 500px) {
+      .btn {
+        font-size: 0.9rem;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📘 HTML Assignments</h1>
+    <div class="btn-grid">
+      <a class="btn" href="Assignment2.html">Assignment 2</a>
+      <a class="btn" href="Assignment3.html">Assignment 3</a>
+      <a class="btn" href="Assignment4.html">Assignment 4</a>
+      <a class="btn" href="Assignment5.html">Assignment 5</a>
+      <a class="btn" href="Assignment6.html">Assignment 6</a>
+      <a class="btn" href="Assignment7.html">Assignment 7</a>
+      <a class="btn" href="Assignment8.html">Assignment 8</a>
+      <a class="btn" href="Assignment9.html">Assignment 9</a>
+      <a class="btn" href="Assignment10.html">Assignment 10</a>
+    </div>
+  </div>
+</body>
+</html>

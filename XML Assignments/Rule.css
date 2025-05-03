@@ -1,0 +1,47 @@
+books {
+	display: block;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f9f9f9;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+heading {
+	display: block;
+	font-size: 28px;
+	color: #2c3e50;
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+book {
+	display: block;
+	background-color: #ffffff;
+	margin: 15px auto;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+	width: 90%;
+	max-width: 600px;
+}
+
+book > title,
+book > author,
+book > publisher,
+book > edition,
+book > price {
+	display: block;
+	font-size: 16px;
+	color: #34495e;
+	margin: 6px 0;
+}
+
+book > title {
+	font-weight: bold;
+	color: #1abc9c;
+	font-size: 18px;
+}
