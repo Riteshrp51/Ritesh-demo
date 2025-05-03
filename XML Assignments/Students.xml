@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<students>
+  <student>
+    <name>Ritesh Patil</name>
+    <course>Computer Science</course>
+    <college>D.Y. Patil College, Kolhapur</college>
+  </student>
+  <student>
+    <name>Karan Jadhav</name>
+    <course>Computer Science</course>
+    <college>Pimpri Chinchwad College</college>
+  </student>
+  <student>
+    <name>Srushti Patil</name>
+    <course>Ayurvedalaya college</course>
+    <college>Seth Govindrao College, Solapur</college>
+  </student>
+  <student>
+    <name>Yash Gavali</name>
+    <course>Mechanical</course>
+    <college>Walchand College, Sangli</college>
+  </student>
+  <student>
+    <name>Neha Jadhav</name>
+    <course>Commerce</course>
+    <college>D R K College, Kolhapur</college>
+  </student>
+</students>
